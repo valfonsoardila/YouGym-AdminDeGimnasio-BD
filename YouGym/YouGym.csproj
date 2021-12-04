@@ -177,17 +177,17 @@
     <Compile Include="ConsultarDatosUsuario.Designer.cs">
       <DependentUpon>ConsultarDatosUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConsultarPlanEjercicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarPlanEjercicio.Designer.cs">
+      <DependentUpon>ConsultarPlanEjercicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConsultarServicios.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ConsultarServicios.Designer.cs">
       <DependentUpon>ConsultarServicios.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ModificarDatosUsuario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ModificarDatosUsuario.Designer.cs">
-      <DependentUpon>ModificarDatosUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="RegistrarDatosEntrenador.cs">
       <SubType>Form</SubType>
@@ -200,6 +200,12 @@
     </Compile>
     <Compile Include="RegistrarDatosUsuario.Designer.cs">
       <DependentUpon>RegistrarDatosUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AsignarPlanEjercicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AsignarPlanEjercicio.Designer.cs">
+      <DependentUpon>AsignarPlanEjercicio.cs</DependentUpon>
     </Compile>
     <Compile Include="YouGym.cs">
       <SubType>Form</SubType>

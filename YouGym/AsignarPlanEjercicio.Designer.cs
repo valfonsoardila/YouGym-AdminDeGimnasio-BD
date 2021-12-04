@@ -1,7 +1,7 @@
 ﻿
 namespace YouGym
 {
-    partial class ModificarDatosUsuario
+    partial class AsignarPlanEjercicio
     {
         /// <summary>
         /// Required designer variable.
@@ -32,7 +32,7 @@ namespace YouGym
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "ModificarDatosUsuario";
+            this.Text = "RegistrarPlanEjercicio";
         }
 
         #endregion
