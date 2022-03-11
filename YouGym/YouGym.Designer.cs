@@ -30,26 +30,27 @@ namespace YouGym
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges9 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
-            Bunifu.UI.WinForms.BunifuAnimatorNS.Animation animation2 = new Bunifu.UI.WinForms.BunifuAnimatorNS.Animation();
-            Bunifu.UI.WinForms.BunifuAnimatorNS.Animation animation1 = new Bunifu.UI.WinForms.BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(YouGym));
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges10 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges11 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges12 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges13 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges14 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges15 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges16 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges17 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges18 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
+            Bunifu.UI.WinForms.BunifuAnimatorNS.Animation animation4 = new Bunifu.UI.WinForms.BunifuAnimatorNS.Animation();
+            Bunifu.UI.WinForms.BunifuAnimatorNS.Animation animation3 = new Bunifu.UI.WinForms.BunifuAnimatorNS.Animation();
             this.menuTop = new System.Windows.Forms.Panel();
+            this.Minimizar = new FontAwesome.Sharp.IconButton();
+            this.Salir = new FontAwesome.Sharp.IconButton();
             this.PnlContenedor = new System.Windows.Forms.Panel();
             this.Restaurar = new FontAwesome.Sharp.IconButton();
-            this.Minimizar = new FontAwesome.Sharp.IconButton();
             this.Maximizar = new FontAwesome.Sharp.IconButton();
-            this.Salir = new FontAwesome.Sharp.IconButton();
             this.SideBarWrapper = new System.Windows.Forms.Panel();
             this.menuBar = new Bunifu.UI.WinForms.BunifuGradientPanel();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.subMenuServicios = new Bunifu.UI.WinForms.BunifuGradientPanel();
             this.bunifuButton27 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.btnAsignarEntrenador = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
@@ -71,12 +72,14 @@ namespace YouGym
             this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.logo = new System.Windows.Forms.PictureBox();
-            this.menuSideBar = new FontAwesome.Sharp.IconButton();
             this.dashBoard = new System.Windows.Forms.Label();
+            this.menuSideBar = new FontAwesome.Sharp.IconButton();
             this.PnlContenedorInterno = new System.Windows.Forms.Panel();
+            this.logoBackGround = new System.Windows.Forms.PictureBox();
             this.animacionMenuBarEnter = new Bunifu.UI.WinForms.BunifuTransition(this.components);
             this.animacionMenuBarBack = new Bunifu.UI.WinForms.BunifuTransition(this.components);
             this.menuTop.SuspendLayout();
+            this.PnlContenedor.SuspendLayout();
             this.SideBarWrapper.SuspendLayout();
             this.menuBar.SuspendLayout();
             this.subMenuServicios.SuspendLayout();
@@ -86,16 +89,16 @@ namespace YouGym
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
+            this.PnlContenedorInterno.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoBackGround)).BeginInit();
             this.SuspendLayout();
             // 
             // menuTop
             // 
             this.menuTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(2)))), ((int)(((byte)(2)))));
-            this.menuTop.Controls.Add(this.PnlContenedor);
-            this.menuTop.Controls.Add(this.Restaurar);
             this.menuTop.Controls.Add(this.Minimizar);
-            this.menuTop.Controls.Add(this.Maximizar);
             this.menuTop.Controls.Add(this.Salir);
+            this.menuTop.Controls.Add(this.PnlContenedor);
             this.animacionMenuBarBack.SetDecoration(this.menuTop, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.animacionMenuBarEnter.SetDecoration(this.menuTop, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.menuTop.Dock = System.Windows.Forms.DockStyle.Top;
@@ -103,34 +106,6 @@ namespace YouGym
             this.menuTop.Name = "menuTop";
             this.menuTop.Size = new System.Drawing.Size(800, 26);
             this.menuTop.TabIndex = 0;
-            // 
-            // PnlContenedor
-            // 
-            this.animacionMenuBarBack.SetDecoration(this.PnlContenedor, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.animacionMenuBarEnter.SetDecoration(this.PnlContenedor, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.PnlContenedor.Location = new System.Drawing.Point(0, 0);
-            this.PnlContenedor.Name = "PnlContenedor";
-            this.PnlContenedor.Size = new System.Drawing.Size(800, 594);
-            this.PnlContenedor.TabIndex = 0;
-            // 
-            // Restaurar
-            // 
-            this.Restaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.animacionMenuBarBack.SetDecoration(this.Restaurar, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.animacionMenuBarEnter.SetDecoration(this.Restaurar, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.Restaurar.FlatAppearance.BorderSize = 0;
-            this.Restaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Restaurar.IconChar = FontAwesome.Sharp.IconChar.WindowRestore;
-            this.Restaurar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            this.Restaurar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.Restaurar.IconSize = 25;
-            this.Restaurar.Location = new System.Drawing.Point(743, 3);
-            this.Restaurar.Name = "Restaurar";
-            this.Restaurar.Size = new System.Drawing.Size(24, 23);
-            this.Restaurar.TabIndex = 3;
-            this.Restaurar.UseVisualStyleBackColor = true;
-            this.Restaurar.Visible = false;
-            this.Restaurar.Click += new System.EventHandler(this.Restaurar_Click);
             // 
             // Minimizar
             // 
@@ -143,30 +118,12 @@ namespace YouGym
             this.Minimizar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
             this.Minimizar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.Minimizar.IconSize = 25;
-            this.Minimizar.Location = new System.Drawing.Point(716, 3);
+            this.Minimizar.Location = new System.Drawing.Point(708, 3);
             this.Minimizar.Name = "Minimizar";
             this.Minimizar.Size = new System.Drawing.Size(24, 23);
             this.Minimizar.TabIndex = 2;
             this.Minimizar.UseVisualStyleBackColor = true;
             this.Minimizar.Click += new System.EventHandler(this.Minimizar_Click);
-            // 
-            // Maximizar
-            // 
-            this.Maximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.animacionMenuBarBack.SetDecoration(this.Maximizar, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.animacionMenuBarEnter.SetDecoration(this.Maximizar, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.Maximizar.FlatAppearance.BorderSize = 0;
-            this.Maximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Maximizar.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
-            this.Maximizar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            this.Maximizar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.Maximizar.IconSize = 25;
-            this.Maximizar.Location = new System.Drawing.Point(742, 3);
-            this.Maximizar.Name = "Maximizar";
-            this.Maximizar.Size = new System.Drawing.Size(24, 23);
-            this.Maximizar.TabIndex = 1;
-            this.Maximizar.UseVisualStyleBackColor = true;
-            this.Maximizar.Click += new System.EventHandler(this.Maximizar_Click);
             // 
             // Salir
             // 
@@ -186,6 +143,51 @@ namespace YouGym
             this.Salir.UseVisualStyleBackColor = true;
             this.Salir.Click += new System.EventHandler(this.Salir_Click);
             // 
+            // PnlContenedor
+            // 
+            this.PnlContenedor.Controls.Add(this.Restaurar);
+            this.PnlContenedor.Controls.Add(this.Maximizar);
+            this.animacionMenuBarBack.SetDecoration(this.PnlContenedor, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.animacionMenuBarEnter.SetDecoration(this.PnlContenedor, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.PnlContenedor.Location = new System.Drawing.Point(0, 0);
+            this.PnlContenedor.Name = "PnlContenedor";
+            this.PnlContenedor.Size = new System.Drawing.Size(800, 594);
+            this.PnlContenedor.TabIndex = 0;
+            // 
+            // Restaurar
+            // 
+            this.animacionMenuBarBack.SetDecoration(this.Restaurar, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.animacionMenuBarEnter.SetDecoration(this.Restaurar, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.Restaurar.FlatAppearance.BorderSize = 0;
+            this.Restaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Restaurar.IconChar = FontAwesome.Sharp.IconChar.WindowRestore;
+            this.Restaurar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            this.Restaurar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.Restaurar.IconSize = 25;
+            this.Restaurar.Location = new System.Drawing.Point(733, 3);
+            this.Restaurar.Name = "Restaurar";
+            this.Restaurar.Size = new System.Drawing.Size(33, 23);
+            this.Restaurar.TabIndex = 2;
+            this.Restaurar.UseVisualStyleBackColor = true;
+            // 
+            // Maximizar
+            // 
+            this.Maximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.animacionMenuBarBack.SetDecoration(this.Maximizar, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.animacionMenuBarEnter.SetDecoration(this.Maximizar, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.Maximizar.FlatAppearance.BorderSize = 0;
+            this.Maximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Maximizar.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
+            this.Maximizar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            this.Maximizar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.Maximizar.IconSize = 25;
+            this.Maximizar.Location = new System.Drawing.Point(742, 3);
+            this.Maximizar.Name = "Maximizar";
+            this.Maximizar.Size = new System.Drawing.Size(24, 23);
+            this.Maximizar.TabIndex = 1;
+            this.Maximizar.UseVisualStyleBackColor = true;
+            this.Maximizar.Click += new System.EventHandler(this.Maximizar_Click);
+            // 
             // SideBarWrapper
             // 
             this.SideBarWrapper.AutoScroll = true;
@@ -197,7 +199,7 @@ namespace YouGym
             this.SideBarWrapper.Dock = System.Windows.Forms.DockStyle.Left;
             this.SideBarWrapper.Location = new System.Drawing.Point(0, 26);
             this.SideBarWrapper.Name = "SideBarWrapper";
-            this.SideBarWrapper.Size = new System.Drawing.Size(187, 571);
+            this.SideBarWrapper.Size = new System.Drawing.Size(187, 671);
             this.SideBarWrapper.TabIndex = 1;
             // 
             // menuBar
@@ -208,6 +210,7 @@ namespace YouGym
             this.menuBar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("menuBar.BackgroundImage")));
             this.menuBar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.menuBar.BorderRadius = 1;
+            this.menuBar.Controls.Add(this.iconButton1);
             this.menuBar.Controls.Add(this.subMenuServicios);
             this.menuBar.Controls.Add(this.btnGestionarServicios);
             this.menuBar.Controls.Add(this.subMenuEntrenador);
@@ -224,8 +227,30 @@ namespace YouGym
             this.menuBar.Location = new System.Drawing.Point(5, 73);
             this.menuBar.Name = "menuBar";
             this.menuBar.Quality = 10;
-            this.menuBar.Size = new System.Drawing.Size(178, 498);
+            this.menuBar.Size = new System.Drawing.Size(178, 598);
             this.menuBar.TabIndex = 0;
+            // 
+            // iconButton1
+            // 
+            this.animacionMenuBarBack.SetDecoration(this.iconButton1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.animacionMenuBarEnter.SetDecoration(this.iconButton1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.LockOpen;
+            this.iconButton1.IconColor = System.Drawing.Color.WhiteSmoke;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.IconSize = 30;
+            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.Location = new System.Drawing.Point(0, 550);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(178, 43);
+            this.iconButton1.TabIndex = 10;
+            this.iconButton1.Text = "   Cerrar Sesión";
+            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton1.UseVisualStyleBackColor = true;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // subMenuServicios
             // 
@@ -268,11 +293,11 @@ namespace YouGym
             this.bunifuButton27.ColorContrastOnClick = 45;
             this.bunifuButton27.ColorContrastOnHover = 45;
             this.bunifuButton27.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.bunifuButton27.CustomizableEdges = borderEdges1;
+            borderEdges10.BottomLeft = true;
+            borderEdges10.BottomRight = true;
+            borderEdges10.TopLeft = true;
+            borderEdges10.TopRight = true;
+            this.bunifuButton27.CustomizableEdges = borderEdges10;
             this.animacionMenuBarBack.SetDecoration(this.bunifuButton27, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.animacionMenuBarEnter.SetDecoration(this.bunifuButton27, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.bunifuButton27.DialogResult = System.Windows.Forms.DialogResult.None;
@@ -360,11 +385,11 @@ namespace YouGym
             this.btnAsignarEntrenador.ColorContrastOnClick = 45;
             this.btnAsignarEntrenador.ColorContrastOnHover = 45;
             this.btnAsignarEntrenador.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.btnAsignarEntrenador.CustomizableEdges = borderEdges2;
+            borderEdges11.BottomLeft = true;
+            borderEdges11.BottomRight = true;
+            borderEdges11.TopLeft = true;
+            borderEdges11.TopRight = true;
+            this.btnAsignarEntrenador.CustomizableEdges = borderEdges11;
             this.animacionMenuBarBack.SetDecoration(this.btnAsignarEntrenador, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.animacionMenuBarEnter.SetDecoration(this.btnAsignarEntrenador, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.btnAsignarEntrenador.DialogResult = System.Windows.Forms.DialogResult.None;
@@ -453,11 +478,11 @@ namespace YouGym
             this.btnConsultarServicios.ColorContrastOnClick = 45;
             this.btnConsultarServicios.ColorContrastOnHover = 45;
             this.btnConsultarServicios.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges3.BottomLeft = true;
-            borderEdges3.BottomRight = true;
-            borderEdges3.TopLeft = true;
-            borderEdges3.TopRight = true;
-            this.btnConsultarServicios.CustomizableEdges = borderEdges3;
+            borderEdges12.BottomLeft = true;
+            borderEdges12.BottomRight = true;
+            borderEdges12.TopLeft = true;
+            borderEdges12.TopRight = true;
+            this.btnConsultarServicios.CustomizableEdges = borderEdges12;
             this.animacionMenuBarBack.SetDecoration(this.btnConsultarServicios, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.animacionMenuBarEnter.SetDecoration(this.btnConsultarServicios, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.btnConsultarServicios.DialogResult = System.Windows.Forms.DialogResult.None;
@@ -590,11 +615,11 @@ namespace YouGym
             this.btConsultarDatosEntrenador.ColorContrastOnClick = 45;
             this.btConsultarDatosEntrenador.ColorContrastOnHover = 45;
             this.btConsultarDatosEntrenador.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges4.BottomLeft = true;
-            borderEdges4.BottomRight = true;
-            borderEdges4.TopLeft = true;
-            borderEdges4.TopRight = true;
-            this.btConsultarDatosEntrenador.CustomizableEdges = borderEdges4;
+            borderEdges13.BottomLeft = true;
+            borderEdges13.BottomRight = true;
+            borderEdges13.TopLeft = true;
+            borderEdges13.TopRight = true;
+            this.btConsultarDatosEntrenador.CustomizableEdges = borderEdges13;
             this.animacionMenuBarBack.SetDecoration(this.btConsultarDatosEntrenador, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.animacionMenuBarEnter.SetDecoration(this.btConsultarDatosEntrenador, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.btConsultarDatosEntrenador.DialogResult = System.Windows.Forms.DialogResult.None;
@@ -683,11 +708,11 @@ namespace YouGym
             this.btnAsignarPlanDeEjercicios.ColorContrastOnClick = 45;
             this.btnAsignarPlanDeEjercicios.ColorContrastOnHover = 45;
             this.btnAsignarPlanDeEjercicios.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges5.BottomLeft = true;
-            borderEdges5.BottomRight = true;
-            borderEdges5.TopLeft = true;
-            borderEdges5.TopRight = true;
-            this.btnAsignarPlanDeEjercicios.CustomizableEdges = borderEdges5;
+            borderEdges14.BottomLeft = true;
+            borderEdges14.BottomRight = true;
+            borderEdges14.TopLeft = true;
+            borderEdges14.TopRight = true;
+            this.btnAsignarPlanDeEjercicios.CustomizableEdges = borderEdges14;
             this.animacionMenuBarBack.SetDecoration(this.btnAsignarPlanDeEjercicios, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.animacionMenuBarEnter.SetDecoration(this.btnAsignarPlanDeEjercicios, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.btnAsignarPlanDeEjercicios.DialogResult = System.Windows.Forms.DialogResult.None;
@@ -755,6 +780,7 @@ namespace YouGym
             this.btnAsignarPlanDeEjercicios.TextMarginLeft = 0;
             this.btnAsignarPlanDeEjercicios.TextPadding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.btnAsignarPlanDeEjercicios.UseDefaultRadiusAndThickness = true;
+            this.btnAsignarPlanDeEjercicios.Click += new System.EventHandler(this.btnAsignarPlanDeEjercicios_Click_1);
             // 
             // btnRegistrarDatosEntrenador
             // 
@@ -775,11 +801,11 @@ namespace YouGym
             this.btnRegistrarDatosEntrenador.ColorContrastOnClick = 45;
             this.btnRegistrarDatosEntrenador.ColorContrastOnHover = 45;
             this.btnRegistrarDatosEntrenador.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges6.BottomLeft = true;
-            borderEdges6.BottomRight = true;
-            borderEdges6.TopLeft = true;
-            borderEdges6.TopRight = true;
-            this.btnRegistrarDatosEntrenador.CustomizableEdges = borderEdges6;
+            borderEdges15.BottomLeft = true;
+            borderEdges15.BottomRight = true;
+            borderEdges15.TopLeft = true;
+            borderEdges15.TopRight = true;
+            this.btnRegistrarDatosEntrenador.CustomizableEdges = borderEdges15;
             this.animacionMenuBarBack.SetDecoration(this.btnRegistrarDatosEntrenador, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.animacionMenuBarEnter.SetDecoration(this.btnRegistrarDatosEntrenador, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.btnRegistrarDatosEntrenador.DialogResult = System.Windows.Forms.DialogResult.None;
@@ -912,11 +938,11 @@ namespace YouGym
             this.btnConsultarDatosUsuario.ColorContrastOnClick = 45;
             this.btnConsultarDatosUsuario.ColorContrastOnHover = 45;
             this.btnConsultarDatosUsuario.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges7.BottomLeft = true;
-            borderEdges7.BottomRight = true;
-            borderEdges7.TopLeft = true;
-            borderEdges7.TopRight = true;
-            this.btnConsultarDatosUsuario.CustomizableEdges = borderEdges7;
+            borderEdges16.BottomLeft = true;
+            borderEdges16.BottomRight = true;
+            borderEdges16.TopLeft = true;
+            borderEdges16.TopRight = true;
+            this.btnConsultarDatosUsuario.CustomizableEdges = borderEdges16;
             this.animacionMenuBarBack.SetDecoration(this.btnConsultarDatosUsuario, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.animacionMenuBarEnter.SetDecoration(this.btnConsultarDatosUsuario, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.btnConsultarDatosUsuario.DialogResult = System.Windows.Forms.DialogResult.None;
@@ -1005,11 +1031,11 @@ namespace YouGym
             this.btnConsultarPlanDeEjercicios.ColorContrastOnClick = 45;
             this.btnConsultarPlanDeEjercicios.ColorContrastOnHover = 45;
             this.btnConsultarPlanDeEjercicios.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges8.BottomLeft = true;
-            borderEdges8.BottomRight = true;
-            borderEdges8.TopLeft = true;
-            borderEdges8.TopRight = true;
-            this.btnConsultarPlanDeEjercicios.CustomizableEdges = borderEdges8;
+            borderEdges17.BottomLeft = true;
+            borderEdges17.BottomRight = true;
+            borderEdges17.TopLeft = true;
+            borderEdges17.TopRight = true;
+            this.btnConsultarPlanDeEjercicios.CustomizableEdges = borderEdges17;
             this.animacionMenuBarBack.SetDecoration(this.btnConsultarPlanDeEjercicios, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.animacionMenuBarEnter.SetDecoration(this.btnConsultarPlanDeEjercicios, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.btnConsultarPlanDeEjercicios.DialogResult = System.Windows.Forms.DialogResult.None;
@@ -1098,11 +1124,11 @@ namespace YouGym
             this.btnRegistrarDatosUsuario.ColorContrastOnClick = 45;
             this.btnRegistrarDatosUsuario.ColorContrastOnHover = 45;
             this.btnRegistrarDatosUsuario.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges9.BottomLeft = true;
-            borderEdges9.BottomRight = true;
-            borderEdges9.TopLeft = true;
-            borderEdges9.TopRight = true;
-            this.btnRegistrarDatosUsuario.CustomizableEdges = borderEdges9;
+            borderEdges18.BottomLeft = true;
+            borderEdges18.BottomRight = true;
+            borderEdges18.TopLeft = true;
+            borderEdges18.TopRight = true;
+            this.btnRegistrarDatosUsuario.CustomizableEdges = borderEdges18;
             this.animacionMenuBarBack.SetDecoration(this.btnRegistrarDatosUsuario, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.animacionMenuBarEnter.SetDecoration(this.btnRegistrarDatosUsuario, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.btnRegistrarDatosUsuario.DialogResult = System.Windows.Forms.DialogResult.None;
@@ -1263,7 +1289,6 @@ namespace YouGym
             // panel1
             // 
             this.panel1.Controls.Add(this.logo);
-            this.panel1.Controls.Add(this.menuSideBar);
             this.panel1.Controls.Add(this.dashBoard);
             this.animacionMenuBarBack.SetDecoration(this.panel1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.animacionMenuBarEnter.SetDecoration(this.panel1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
@@ -1278,12 +1303,26 @@ namespace YouGym
             this.animacionMenuBarEnter.SetDecoration(this.logo, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.animacionMenuBarBack.SetDecoration(this.logo, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
-            this.logo.Location = new System.Drawing.Point(102, 7);
+            this.logo.Location = new System.Drawing.Point(11, 4);
             this.logo.Name = "logo";
             this.logo.Size = new System.Drawing.Size(79, 63);
             this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logo.TabIndex = 0;
             this.logo.TabStop = false;
+            this.logo.Visible = false;
+            // 
+            // dashBoard
+            // 
+            this.dashBoard.AutoSize = true;
+            this.animacionMenuBarEnter.SetDecoration(this.dashBoard, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.animacionMenuBarBack.SetDecoration(this.dashBoard, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.dashBoard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashBoard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            this.dashBoard.Location = new System.Drawing.Point(99, 27);
+            this.dashBoard.Name = "dashBoard";
+            this.dashBoard.Size = new System.Drawing.Size(73, 16);
+            this.dashBoard.TabIndex = 0;
+            this.dashBoard.Text = "YOUGYM";
             // 
             // menuSideBar
             // 
@@ -1297,77 +1336,78 @@ namespace YouGym
             this.menuSideBar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
             this.menuSideBar.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.menuSideBar.IconSize = 30;
-            this.menuSideBar.Location = new System.Drawing.Point(24, 28);
+            this.menuSideBar.Location = new System.Drawing.Point(0, 4);
             this.menuSideBar.Name = "menuSideBar";
-            this.menuSideBar.Size = new System.Drawing.Size(30, 28);
+            this.menuSideBar.Size = new System.Drawing.Size(27, 28);
             this.menuSideBar.TabIndex = 0;
             this.menuSideBar.UseVisualStyleBackColor = true;
-            // 
-            // dashBoard
-            // 
-            this.dashBoard.AutoSize = true;
-            this.animacionMenuBarEnter.SetDecoration(this.dashBoard, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.animacionMenuBarBack.SetDecoration(this.dashBoard, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.dashBoard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            this.dashBoard.Location = new System.Drawing.Point(3, 12);
-            this.dashBoard.Name = "dashBoard";
-            this.dashBoard.Size = new System.Drawing.Size(75, 13);
-            this.dashBoard.TabIndex = 0;
-            this.dashBoard.Text = "DASHBOARD";
             // 
             // PnlContenedorInterno
             // 
             this.PnlContenedorInterno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.PnlContenedorInterno.Controls.Add(this.logoBackGround);
+            this.PnlContenedorInterno.Controls.Add(this.menuSideBar);
             this.animacionMenuBarBack.SetDecoration(this.PnlContenedorInterno, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.animacionMenuBarEnter.SetDecoration(this.PnlContenedorInterno, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.PnlContenedorInterno.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PnlContenedorInterno.Location = new System.Drawing.Point(187, 26);
             this.PnlContenedorInterno.Name = "PnlContenedorInterno";
-            this.PnlContenedorInterno.Size = new System.Drawing.Size(613, 571);
+            this.PnlContenedorInterno.Size = new System.Drawing.Size(613, 671);
             this.PnlContenedorInterno.TabIndex = 2;
+            // 
+            // logoBackGround
+            // 
+            this.animacionMenuBarEnter.SetDecoration(this.logoBackGround, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.animacionMenuBarBack.SetDecoration(this.logoBackGround, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.logoBackGround.Image = ((System.Drawing.Image)(resources.GetObject("logoBackGround.Image")));
+            this.logoBackGround.Location = new System.Drawing.Point(28, 18);
+            this.logoBackGround.Name = "logoBackGround";
+            this.logoBackGround.Size = new System.Drawing.Size(556, 475);
+            this.logoBackGround.TabIndex = 0;
+            this.logoBackGround.TabStop = false;
             // 
             // animacionMenuBarEnter
             // 
             this.animacionMenuBarEnter.AnimationType = Bunifu.UI.WinForms.BunifuAnimatorNS.AnimationType.Particles;
             this.animacionMenuBarEnter.Cursor = null;
-            animation2.AnimateOnlyDifferences = true;
-            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
-            animation2.LeafCoeff = 0F;
-            animation2.MaxTime = 1F;
-            animation2.MinTime = 0F;
-            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
-            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
-            animation2.MosaicSize = 1;
-            animation2.Padding = new System.Windows.Forms.Padding(100, 50, 100, 150);
-            animation2.RotateCoeff = 0F;
-            animation2.RotateLimit = 0F;
-            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
-            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
-            animation2.TimeCoeff = 2F;
-            animation2.TransparencyCoeff = 0F;
-            this.animacionMenuBarEnter.DefaultAnimation = animation2;
+            animation4.AnimateOnlyDifferences = true;
+            animation4.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.BlindCoeff")));
+            animation4.LeafCoeff = 0F;
+            animation4.MaxTime = 1F;
+            animation4.MinTime = 0F;
+            animation4.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicCoeff")));
+            animation4.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicShift")));
+            animation4.MosaicSize = 1;
+            animation4.Padding = new System.Windows.Forms.Padding(100, 50, 100, 150);
+            animation4.RotateCoeff = 0F;
+            animation4.RotateLimit = 0F;
+            animation4.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.ScaleCoeff")));
+            animation4.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.SlideCoeff")));
+            animation4.TimeCoeff = 2F;
+            animation4.TransparencyCoeff = 0F;
+            this.animacionMenuBarEnter.DefaultAnimation = animation4;
             this.animacionMenuBarEnter.MaxAnimationTime = 2000;
             // 
             // animacionMenuBarBack
             // 
             this.animacionMenuBarBack.AnimationType = Bunifu.UI.WinForms.BunifuAnimatorNS.AnimationType.HorizSlide;
             this.animacionMenuBarBack.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.animacionMenuBarBack.DefaultAnimation = animation1;
+            animation3.AnimateOnlyDifferences = true;
+            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
+            animation3.LeafCoeff = 0F;
+            animation3.MaxTime = 1F;
+            animation3.MinTime = 0F;
+            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
+            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
+            animation3.MosaicSize = 0;
+            animation3.Padding = new System.Windows.Forms.Padding(0);
+            animation3.RotateCoeff = 0F;
+            animation3.RotateLimit = 0F;
+            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
+            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
+            animation3.TimeCoeff = 0F;
+            animation3.TransparencyCoeff = 0F;
+            this.animacionMenuBarBack.DefaultAnimation = animation3;
             // 
             // YouGym
             // 
@@ -1375,16 +1415,18 @@ namespace YouGym
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            this.ClientSize = new System.Drawing.Size(800, 597);
+            this.ClientSize = new System.Drawing.Size(800, 697);
             this.Controls.Add(this.PnlContenedorInterno);
             this.Controls.Add(this.SideBarWrapper);
             this.Controls.Add(this.menuTop);
             this.animacionMenuBarBack.SetDecoration(this, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.animacionMenuBarEnter.SetDecoration(this, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "YouGym";
             this.Text = "Form1";
             this.menuTop.ResumeLayout(false);
+            this.PnlContenedor.ResumeLayout(false);
             this.SideBarWrapper.ResumeLayout(false);
             this.menuBar.ResumeLayout(false);
             this.subMenuServicios.ResumeLayout(false);
@@ -1396,6 +1438,8 @@ namespace YouGym
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
+            this.PnlContenedorInterno.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.logoBackGround)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1405,7 +1449,6 @@ namespace YouGym
         private System.Windows.Forms.Panel menuTop;
         private System.Windows.Forms.Panel SideBarWrapper;
         private System.Windows.Forms.Panel PnlContenedorInterno;
-        private FontAwesome.Sharp.IconButton Restaurar;
         private FontAwesome.Sharp.IconButton Minimizar;
         private FontAwesome.Sharp.IconButton Maximizar;
         private FontAwesome.Sharp.IconButton Salir;
@@ -1436,6 +1479,9 @@ namespace YouGym
         private System.Windows.Forms.Panel PnlContenedor;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton2 btnAsignarPlanDeEjercicios;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton2 btnConsultarPlanDeEjercicios;
+        private FontAwesome.Sharp.IconButton Restaurar;
+        private System.Windows.Forms.PictureBox logoBackGround;
+        private FontAwesome.Sharp.IconButton iconButton1;
     }
 }
 

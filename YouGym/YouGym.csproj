@@ -189,6 +189,30 @@
     <Compile Include="ConsultarServicios.Designer.cs">
       <DependentUpon>ConsultarServicios.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormularioDeRegistro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioDeRegistro.Designer.cs">
+      <DependentUpon>FormularioDeRegistro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelLogin.Designer.cs">
+      <DependentUpon>PanelLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecuperarContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecuperarContraseña.Designer.cs">
+      <DependentUpon>RecuperarContraseña.cs</DependentUpon>
+    </Compile>
     <Compile Include="RegistrarDatosEntrenador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -213,16 +237,43 @@
     <Compile Include="YouGym.Designer.cs">
       <DependentUpon>YouGym.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
     <Compile Include="ConfiguracionesDeInicio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AsignarEntrenadores.resx">
+      <DependentUpon>AsignarEntrenadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AsignarPlanEjercicio.resx">
+      <DependentUpon>AsignarPlanEjercicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarDatosEntrenador.resx">
+      <DependentUpon>ConsultarDatosEntrenador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarDatosUsuario.resx">
+      <DependentUpon>ConsultarDatosUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarPlanEjercicio.resx">
+      <DependentUpon>ConsultarPlanEjercicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarServicios.resx">
+      <DependentUpon>ConsultarServicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioDeRegistro.resx">
+      <DependentUpon>FormularioDeRegistro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelLogin.resx">
+      <DependentUpon>PanelLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecuperarContraseña.resx">
+      <DependentUpon>RecuperarContraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarDatosEntrenador.resx">
+      <DependentUpon>RegistrarDatosEntrenador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarDatosUsuario.resx">
+      <DependentUpon>RegistrarDatosUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="YouGym.resx">
       <DependentUpon>YouGym.cs</DependentUpon>

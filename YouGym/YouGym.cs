@@ -22,11 +22,26 @@ namespace YouGym
             InitializeComponent();
             Inicializar();
             hideSubMenu();
+            logoBackGround.Visible = true;
         }
         private void Inicializar()
         {
             this.SetStyle(ControlStyles.ResizeRedraw, true);
             this.DoubleBuffered = true;
+        }
+        private void CerrarYAbrirImagen()
+        {
+            if(logoBackGround.Visible == false)
+            {
+                logo.Visible = true;
+            }
+            else
+            {
+                if (logoBackGround.Visible == true)
+                {
+                    logo.Visible = false;
+                }
+            }
         }
         protected override void WndProc(ref Message m)
         {
@@ -151,16 +166,21 @@ namespace YouGym
         }
         private void btnRegistrarDatosUsuario_Click(object sender, EventArgs e)
         {
+            logoBackGround.Visible = false;
+            CerrarYAbrirImagen();
             CerrarFormulariosCiclo();
             AbrirFormulario<RegistrarDatosUsuario>();
         }
         private void btnConsultarPlanDeEjercicios_Click(object sender, EventArgs e)
         {
+            logoBackGround.Visible = false;
+            CerrarYAbrirImagen();
             CerrarFormulariosCiclo();
             AbrirFormulario<ConsultarPlanEjercicio>();
         }
         private void btnConsultarDatosUsuario_Click(object sender, EventArgs e)
         {
+            logoBackGround.Visible = false;
             CerrarFormulariosCiclo();
             AbrirFormulario<ConsultarDatosUsuario>();
         }
@@ -171,16 +191,20 @@ namespace YouGym
         }
         private void btnRegistrarDatosEntrenador_Click(object sender, EventArgs e)
         {
+            logoBackGround.Visible = false;
+            logoBackGround.Visible = false;
             CerrarFormulariosCiclo();
             AbrirFormulario<RegistrarDatosEntrenador>();
         }
-        private void btnAsignarPlanDeEjercicios_Click(object sender, EventArgs e)
+        private void btnAsignarPlanDeEjercicios_Click_1(object sender, EventArgs e)
         {
+            logoBackGround.Visible = false;
             CerrarFormulariosCiclo();
             AbrirFormulario<AsignarPlanEjercicio>();
         }
         private void btConsultarDatosEntrenador_Click(object sender, EventArgs e)
         {
+            logoBackGround.Visible = false;
             CerrarFormulariosCiclo();
             AbrirFormulario<ConsultarDatosEntrenador>();
         }
@@ -191,11 +215,13 @@ namespace YouGym
         }
         private void btnConsultarServicios_Click(object sender, EventArgs e)
         {
+            logoBackGround.Visible = false;
             CerrarFormulariosCiclo();
             AbrirFormulario<ConsultarServicios>();
         }
         private void btnAsignarEntrenador_Click(object sender, EventArgs e)
         {
+            logoBackGround.Visible = false;
             CerrarFormulariosCiclo();
             AbrirFormulario<AsignarEntrenadores>();
         }
@@ -216,11 +242,16 @@ namespace YouGym
         {
             WindowState = FormWindowState.Minimized;
         }
-
-        private void Restaurar_Click(object sender, EventArgs e)
+        private void Restaurar_Click_1(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Normal;
             Restaurar.Visible = false;
+            Maximizar.Visible = true;
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
