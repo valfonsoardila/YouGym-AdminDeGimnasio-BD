@@ -8,5 +8,6 @@ namespace Entity
 {
     class Horario
     {
+        public string HoraDeEntrenamiento { get; set; }
     }
 }

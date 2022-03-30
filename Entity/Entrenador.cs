@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Entity
 {
-    class Entrenador
+    class Entrenador:Persona
     {
+        public string CodigoMembresiaEntrenador { get; set; }
     }
 }
