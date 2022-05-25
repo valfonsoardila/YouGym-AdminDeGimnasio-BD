@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entity
+namespace Bll
 {
-    class Horario
+    class PlanDeEjercicioService
     {
-        public string HoraDeEntrenamiento { get; set; }
     }
 }

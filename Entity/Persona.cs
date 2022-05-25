@@ -10,13 +10,15 @@ namespace Entity
     {
         public string Identificacion { get; set; }
         public string Nombre { get; set; }
+        public DateTime FechaDeNacimiento { get; set; }
+        public string Edad { get; set; }
         public string Direccion { get; set; }
         public string Sexo { get; set; }
         public string Estado { get; set; }
-        public string Edad { get; set; }
-        public string Escribir()
+        //***************************************************************
+        public string Datear()
         {
-            return $"{Identificacion};{Nombre};{Direccion};{Sexo};{Estado};{Edad}";
+            return $"{Identificacion};{Nombre};{FechaDeNacimiento};{Edad};{Direccion};{Sexo};{Estado}";
         }
     }
 }

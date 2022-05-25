@@ -16,7 +16,7 @@ namespace YouGym
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PanelLogin());
+            Application.Run(new YouGym());
         }
     }
 }

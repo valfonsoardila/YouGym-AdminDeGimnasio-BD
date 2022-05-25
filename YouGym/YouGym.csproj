@@ -159,12 +159,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AsignarEntrenadores.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AsignarEntrenadores.Designer.cs">
-      <DependentUpon>AsignarEntrenadores.cs</DependentUpon>
-    </Compile>
     <Compile Include="ConsultarDatosEntrenador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -188,6 +182,18 @@
     </Compile>
     <Compile Include="ConsultarServicios.Designer.cs">
       <DependentUpon>ConsultarServicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarDatosDeServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EliminarDatosDeServicio.Designer.cs">
+      <DependentUpon>EliminarDatosDeServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarUsuarioEntrenador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EliminarUsuarioEntrenador.Designer.cs">
+      <DependentUpon>EliminarUsuarioEntrenador.cs</DependentUpon>
     </Compile>
     <Compile Include="FormularioDeRegistro.cs">
       <SubType>Form</SubType>
@@ -213,6 +219,12 @@
     <Compile Include="RecuperarContraseña.Designer.cs">
       <DependentUpon>RecuperarContraseña.cs</DependentUpon>
     </Compile>
+    <Compile Include="RegistrarAdminServicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarAdminServicios.Designer.cs">
+      <DependentUpon>RegistrarAdminServicios.cs</DependentUpon>
+    </Compile>
     <Compile Include="RegistrarDatosEntrenador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -225,11 +237,17 @@
     <Compile Include="RegistrarDatosUsuario.Designer.cs">
       <DependentUpon>RegistrarDatosUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="AsignarPlanEjercicio.cs">
+    <Compile Include="RegistrarPlanEjercicio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AsignarPlanEjercicio.Designer.cs">
-      <DependentUpon>AsignarPlanEjercicio.cs</DependentUpon>
+    <Compile Include="RegistrarPlanEjercicio.Designer.cs">
+      <DependentUpon>RegistrarPlanEjercicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarServiciosGym.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarServiciosGym.Designer.cs">
+      <DependentUpon>RegistrarServiciosGym.cs</DependentUpon>
     </Compile>
     <Compile Include="YouGym.cs">
       <SubType>Form</SubType>
@@ -239,11 +257,14 @@
     </Compile>
     <Compile Include="ConfiguracionesDeInicio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AsignarEntrenadores.resx">
-      <DependentUpon>AsignarEntrenadores.cs</DependentUpon>
+    <EmbeddedResource Include="EliminarDatosDeServicio.resx">
+      <DependentUpon>EliminarDatosDeServicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AsignarPlanEjercicio.resx">
-      <DependentUpon>AsignarPlanEjercicio.cs</DependentUpon>
+    <EmbeddedResource Include="EliminarUsuarioEntrenador.resx">
+      <DependentUpon>EliminarUsuarioEntrenador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarPlanEjercicio.resx">
+      <DependentUpon>RegistrarPlanEjercicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarDatosEntrenador.resx">
       <DependentUpon>ConsultarDatosEntrenador.cs</DependentUpon>
@@ -269,11 +290,17 @@
     <EmbeddedResource Include="RecuperarContraseña.resx">
       <DependentUpon>RecuperarContraseña.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarAdminServicios.resx">
+      <DependentUpon>RegistrarAdminServicios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RegistrarDatosEntrenador.resx">
       <DependentUpon>RegistrarDatosEntrenador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistrarDatosUsuario.resx">
       <DependentUpon>RegistrarDatosUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarServiciosGym.resx">
+      <DependentUpon>RegistrarServiciosGym.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="YouGym.resx">
       <DependentUpon>YouGym.cs</DependentUpon>
@@ -301,6 +328,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bll\Bll.csproj">
+      <Project>{2011c6c3-0c88-4d38-9092-ee731320274f}</Project>
+      <Name>Bll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{fc2dfd97-0ccc-4052-9557-ec0f42a68574}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace YouGym
 {
-    public partial class AsignarEntrenadores : Form
+    public partial class EliminarUsuarioEntrenador : Form
     {
-        public AsignarEntrenadores()
+        public EliminarUsuarioEntrenador()
         {
             InitializeComponent();
         }

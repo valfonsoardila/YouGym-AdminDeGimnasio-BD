@@ -6,8 +6,25 @@ using System.Threading.Tasks;
 
 namespace Entity
 {
-    class Entrenador:Persona
+    public class Entrenador : PlanDeEjercicio
     {
         public string CodigoMembresiaEntrenador { get; set; }
+        public string CantidadDeUsuarios { get; set; }
+        public string CantidadHorasDeEntrenamientosPorUsuario { get; set; }
+
+        //*********************************************
+
+        public string AsignarCodigoMembresiaEntrenador()
+        {
+            return $"{CodigoMembresiaEntrenador}";
+        }
+        public string AsignarUsuarios()
+        {
+            return $"{CantidadDeUsuarios}";
+        }
+        public string AsignarHorario()
+        {
+            return $"{CantidadHorasDeEntrenamientosPorUsuario}";
+        }
     }
 }

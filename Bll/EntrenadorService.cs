@@ -1,4 +1,5 @@
-﻿using Dall;
+﻿using System;
+using Dall;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,22 +9,22 @@ using Entity;
 
 namespace Bll
 {
-    public class UsuarioService
+    public class EntrenadorService
     {
-        private readonly UsuarioRepository repository;
+        private readonly EntrenadorRepository repository;
         private readonly ConnectionManager connection;
-        public UsuarioService(string conexion)
+        public EntrenadorService(string conexion)
         {
             connection = new ConnectionManager(conexion);
-            repository = new UsuarioRepository(connection);
+            repository = new EntrenadorRepository(connection);
         }
         //Metodo Guardar
-        public string Guardar(Usuario usuario)
+        public string Guardar(Entrenador entrenador)
         {
             try
             {
                 connection.Open();
-                repository.Guardar(usuario);
+                repository.Guardar(entrenador);
                 return "Se a Guardado con Exito";
             }
             catch (Exception e)
@@ -34,15 +35,15 @@ namespace Bll
 
         }
         //Metodos Response *Buscar*
-        public BuscarUsuarioResponse BuscarPorIdentificacion(string identificacion)
+        public BuscarEntrenadorResponse BuscarPorIdentificacion(string identificacion)
         {
-            BuscarUsuarioResponse response = new BuscarUsuarioResponse();
+            BuscarEntrenadorResponse response = new BuscarEntrenadorResponse();
             try
             {
                 connection.Open();
-                response.Usuarios = repository.BuscarPorIdentificacion(identificacion);
+                response.Entrenadores = repository.BuscarPorIdentificacion(identificacion);
                 response.Error = false;
-                response.Mensaje = (response.Usuarios.Count > 0) ? "Se consultan los datos" : "No hay datos para consultar";
+                response.Mensaje = (response.Entrenadores.Count > 0) ? "Se consultan los datos" : "No hay datos para consultar";
                 return response;
             }
             catch (Exception e)
@@ -54,15 +55,15 @@ namespace Bll
             finally { connection.Close(); }
         }
         //Metodo Response *Consultar*
-        public ConsultarUsuarioRespons Consultar()
+        public ConsultarEntrenadorRespons Consultar()
         {
-            ConsultarUsuarioRespons respons = new ConsultarUsuarioRespons();
+            ConsultarEntrenadorRespons respons = new ConsultarEntrenadorRespons();
             try
             {
                 connection.Open();
-                respons.Usuarios = repository.Consultar();
+                respons.Entrenadores = repository.Consultar();
                 respons.Error = false;
-                respons.Mensaje = (respons.Usuarios.Count > 0) ? "Se consultan los datos" : "No hay datos para consultar";
+                respons.Mensaje = (respons.Entrenadores.Count > 0) ? "Se consultan los datos" : "No hay datos para consultar";
                 return respons;
             }
             catch (Exception e)
@@ -73,20 +74,19 @@ namespace Bll
             }
             finally { connection.Close(); }
         }
-
     }
     //Creacion de clases *Response*
-    public class ConsultarUsuarioRespons
+    public class ConsultarEntrenadorRespons
     {
-        public List<Usuario> Usuarios { get; set; }
+        public List<Entrenador> Entrenadores { get; set; }
         public string Mensaje { get; set; }
         public bool Error { get; set; }
     }
 
-    public class BuscarUsuarioResponse
+    public class BuscarEntrenadorResponse
     {
         public string Mensaje { get; set; }
         public bool Error { get; set; }
-        public IList<Usuario> Usuarios { get; set; }
+        public IList<Entrenador> Entrenadores { get; set; }
     }
 }

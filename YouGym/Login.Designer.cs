@@ -31,11 +31,11 @@ namespace YouGym
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panelContenedorLogin = new System.Windows.Forms.Panel();
+            this.Aviso = new System.Windows.Forms.LinkLabel();
             this.btnNoVerPassword = new FontAwesome.Sharp.IconPictureBox();
             this.btnVerPassword = new FontAwesome.Sharp.IconPictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnNoTengoCuenta = new System.Windows.Forms.LinkLabel();
             this.btnOlvideContraseña = new System.Windows.Forms.LinkLabel();
             this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
@@ -45,7 +45,6 @@ namespace YouGym
             this.textUsuario = new System.Windows.Forms.TextBox();
             this.btnAcceder = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.Aviso = new System.Windows.Forms.LinkLabel();
             this.panelContenedorLogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnNoVerPassword)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnVerPassword)).BeginInit();
@@ -61,7 +60,6 @@ namespace YouGym
             this.panelContenedorLogin.Controls.Add(this.btnNoVerPassword);
             this.panelContenedorLogin.Controls.Add(this.btnVerPassword);
             this.panelContenedorLogin.Controls.Add(this.panel2);
-            this.panelContenedorLogin.Controls.Add(this.btnNoTengoCuenta);
             this.panelContenedorLogin.Controls.Add(this.btnOlvideContraseña);
             this.panelContenedorLogin.Controls.Add(this.iconPictureBox2);
             this.panelContenedorLogin.Controls.Add(this.iconPictureBox1);
@@ -75,6 +73,19 @@ namespace YouGym
             this.panelContenedorLogin.Name = "panelContenedorLogin";
             this.panelContenedorLogin.Size = new System.Drawing.Size(355, 358);
             this.panelContenedorLogin.TabIndex = 0;
+            this.panelContenedorLogin.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContenedorLogin_Paint);
+            // 
+            // Aviso
+            // 
+            this.Aviso.ActiveLinkColor = System.Drawing.Color.Black;
+            this.Aviso.AutoSize = true;
+            this.Aviso.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Aviso.LinkColor = System.Drawing.Color.Maroon;
+            this.Aviso.Location = new System.Drawing.Point(126, 283);
+            this.Aviso.Name = "Aviso";
+            this.Aviso.Size = new System.Drawing.Size(0, 12);
+            this.Aviso.TabIndex = 53;
+            this.Aviso.VisitedLinkColor = System.Drawing.Color.Black;
             // 
             // btnNoVerPassword
             // 
@@ -125,21 +136,6 @@ namespace YouGym
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            // 
-            // btnNoTengoCuenta
-            // 
-            this.btnNoTengoCuenta.ActiveLinkColor = System.Drawing.Color.Black;
-            this.btnNoTengoCuenta.AutoSize = true;
-            this.btnNoTengoCuenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNoTengoCuenta.LinkColor = System.Drawing.Color.Maroon;
-            this.btnNoTengoCuenta.Location = new System.Drawing.Point(126, 333);
-            this.btnNoTengoCuenta.Name = "btnNoTengoCuenta";
-            this.btnNoTengoCuenta.Size = new System.Drawing.Size(121, 12);
-            this.btnNoTengoCuenta.TabIndex = 50;
-            this.btnNoTengoCuenta.TabStop = true;
-            this.btnNoTengoCuenta.Text = "¿No tienes cuenta? crea una";
-            this.btnNoTengoCuenta.VisitedLinkColor = System.Drawing.Color.Black;
-            this.btnNoTengoCuenta.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.btnNoTengoCuenta_LinkClicked_1);
             // 
             // btnOlvideContraseña
             // 
@@ -266,18 +262,6 @@ namespace YouGym
             this.label1.TabIndex = 42;
             this.label1.Text = "INICIAR SESION";
             // 
-            // Aviso
-            // 
-            this.Aviso.ActiveLinkColor = System.Drawing.Color.Black;
-            this.Aviso.AutoSize = true;
-            this.Aviso.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Aviso.LinkColor = System.Drawing.Color.Maroon;
-            this.Aviso.Location = new System.Drawing.Point(126, 283);
-            this.Aviso.Name = "Aviso";
-            this.Aviso.Size = new System.Drawing.Size(0, 12);
-            this.Aviso.TabIndex = 53;
-            this.Aviso.VisitedLinkColor = System.Drawing.Color.Black;
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -304,7 +288,6 @@ namespace YouGym
         private System.Windows.Forms.Panel panelContenedorLogin;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.LinkLabel btnNoTengoCuenta;
         private System.Windows.Forms.LinkLabel btnOlvideContraseña;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;

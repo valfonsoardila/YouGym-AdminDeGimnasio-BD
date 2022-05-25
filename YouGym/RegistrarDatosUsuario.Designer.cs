@@ -75,7 +75,7 @@ namespace YouGym
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(27, 264);
+            this.button2.Location = new System.Drawing.Point(27, 265);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(59, 36);
             this.button2.TabIndex = 3;
@@ -132,7 +132,7 @@ namespace YouGym
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(174, 134);
+            this.textBox1.Location = new System.Drawing.Point(174, 135);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(172, 20);
             this.textBox1.TabIndex = 9;
@@ -179,6 +179,7 @@ namespace YouGym
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(54, 98);
             this.label7.Name = "label7";

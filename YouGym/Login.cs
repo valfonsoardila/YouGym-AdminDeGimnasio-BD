@@ -134,6 +134,12 @@ namespace YouGym
                 formulario.Close();
             }
         }
+
+        private void panelContenedorLogin_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void CerrarFormularioSwicth(int FormularioCerrar)
         {
             switch (FormularioCerrar)
