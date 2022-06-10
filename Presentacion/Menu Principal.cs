@@ -150,6 +150,7 @@ namespace YouGym
                     break;
             }
         }
+        //Cerrar los formularios abiertos
         private void CerrarFormulariosCiclo()
         {
             for (int i = 1; i <= cantidadFormularios; i++)
@@ -162,6 +163,7 @@ namespace YouGym
             subMenuUsuario.Visible = false;
             subMenuEntrenador.Visible = false;
             subMenuServicios.Visible = false;
+            subMenuCaja.Visible = false;
         }
         private void showSubMenu(Panel subMenu)
         {
@@ -257,20 +259,22 @@ namespace YouGym
             CerrarFormulariosCiclo();
             AbrirFormulario<EliminarUsuarioEntrenador>();
         }
-
+        //Gestionar caja
+        private void btnGestionarCaja_Click(object sender, EventArgs e)
+        {
+            showSubMenu(subMenuCaja);
+        }
         //Botones de control
         private void Salir_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
         private void Maximizar_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Maximized;
             Maximizar.Visible = false;
             Restaurar.Visible = true;
         }
-
         private void Minimizar_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
@@ -281,12 +285,13 @@ namespace YouGym
             Restaurar.Visible = false;
             Maximizar.Visible = true;
         }
-
-        private void iconButton1_Click(object sender, EventArgs e)
+        //Cerrar Sesion
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            logoBackGround.Visible = false;
+            CerrarFormulariosCiclo();
+            AbrirFormulario<PanelLogin>();
         }
-
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]

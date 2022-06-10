@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace YouGym
 {
-    static class ConfiguracionesDeInicio
+    public static class ConfiguracionesDeInicio
     {
         /// <summary>
         /// Punto de entrada principal para la aplicación.
