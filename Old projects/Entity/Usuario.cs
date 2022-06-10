@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entity
 {
-    public class Usuario:PlanDeEjercicio
+    public class Usuario:Persona
     {
         public string HoraDeEntrenamiento { get; set; }
         public DateTime FechaDeIngresoGym { get; set; }

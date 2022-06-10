@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entity
 {
-    public class PlanDeEjercicio:Administrador
+    public class PlanDeEjercicio
     {
         public DateTime FechaInicio { get; set; }
         public DateTime FechaFinalizacion { get; set; }
