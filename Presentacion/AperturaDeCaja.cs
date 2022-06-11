@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace YouGym
 {
-    public partial class RegistrarAdminServicios : Form
+    public partial class AperturaDeCaja : Form
     {
-        public RegistrarAdminServicios()
+        public AperturaDeCaja()
         {
             InitializeComponent();
         }
@@ -20,11 +20,6 @@ namespace YouGym
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

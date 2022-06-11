@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace YouGym
 {
-    public partial class ConsultarPlanEjercicio : Form
+    public partial class ConsultarServicio : Form
     {
-        public ConsultarPlanEjercicio()
+        public ConsultarServicio()
         {
             InitializeComponent();
         }

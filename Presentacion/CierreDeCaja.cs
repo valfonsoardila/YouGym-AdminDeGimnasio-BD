@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace YouGym
 {
-    public partial class RegistrarPlanEjercicio : Form
+    public partial class CierreDeCaja : Form
     {
-        public RegistrarPlanEjercicio()
+        public CierreDeCaja()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

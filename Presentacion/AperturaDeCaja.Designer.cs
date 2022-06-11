@@ -1,7 +1,7 @@
 ﻿
 namespace YouGym
 {
-    partial class ConsultarServicios
+    partial class AperturaDeCaja
     {
         /// <summary>
         /// Required designer variable.

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace YouGym
 {
-    public partial class ConsultarServicios : Form
+    public partial class ModificarDatosUsuario : Form
     {
-        public ConsultarServicios()
+        public ModificarDatosUsuario()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

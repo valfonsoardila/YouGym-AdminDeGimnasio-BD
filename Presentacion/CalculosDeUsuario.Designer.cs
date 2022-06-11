@@ -1,7 +1,7 @@
 ﻿
 namespace YouGym
 {
-    partial class RegistrarAdminServicios
+    partial class CalculosDeUsuario
     {
         /// <summary>
         /// Required designer variable.

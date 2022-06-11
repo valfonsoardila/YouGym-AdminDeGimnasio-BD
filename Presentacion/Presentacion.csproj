@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -159,6 +174,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CierreDeCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CierreDeCaja.Designer.cs">
+      <DependentUpon>CierreDeCaja.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConsultarDatosEntrenador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,17 +192,17 @@
     <Compile Include="ConsultarDatosUsuario.Designer.cs">
       <DependentUpon>ConsultarDatosUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConsultarPlanEjercicio.cs">
+    <Compile Include="ConsultarServicio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConsultarPlanEjercicio.Designer.cs">
-      <DependentUpon>ConsultarPlanEjercicio.cs</DependentUpon>
+    <Compile Include="ConsultarServicio.Designer.cs">
+      <DependentUpon>ConsultarServicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConsultarServicios.cs">
+    <Compile Include="AperturaDeCaja.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConsultarServicios.Designer.cs">
-      <DependentUpon>ConsultarServicios.cs</DependentUpon>
+    <Compile Include="AperturaDeCaja.Designer.cs">
+      <DependentUpon>AperturaDeCaja.cs</DependentUpon>
     </Compile>
     <Compile Include="EliminarDatosDeServicio.cs">
       <SubType>Form</SubType>
@@ -207,6 +228,18 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModificarDatosEntrenador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarDatosEntrenador.Designer.cs">
+      <DependentUpon>ModificarDatosEntrenador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarDatosUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarDatosUsuario.Designer.cs">
+      <DependentUpon>ModificarDatosUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="PanelLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -219,11 +252,11 @@
     <Compile Include="RecuperarContraseña.Designer.cs">
       <DependentUpon>RecuperarContraseña.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegistrarAdminServicios.cs">
+    <Compile Include="CalculosDeUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegistrarAdminServicios.Designer.cs">
-      <DependentUpon>RegistrarAdminServicios.cs</DependentUpon>
+    <Compile Include="CalculosDeUsuario.Designer.cs">
+      <DependentUpon>CalculosDeUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="RegistrarDatosEntrenador.cs">
       <SubType>Form</SubType>
@@ -237,17 +270,17 @@
     <Compile Include="RegistrarDatosUsuario.Designer.cs">
       <DependentUpon>RegistrarDatosUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegistrarPlanEjercicio.cs">
+    <Compile Include="RegistrarServicio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegistrarPlanEjercicio.Designer.cs">
-      <DependentUpon>RegistrarPlanEjercicio.cs</DependentUpon>
+    <Compile Include="RegistrarServicio.Designer.cs">
+      <DependentUpon>RegistrarServicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegistrarServiciosGym.cs">
+    <Compile Include="CalculosDeEntrenador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegistrarServiciosGym.Designer.cs">
-      <DependentUpon>RegistrarServiciosGym.cs</DependentUpon>
+    <Compile Include="CalculosDeEntrenador.Designer.cs">
+      <DependentUpon>CalculosDeEntrenador.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu Principal.cs">
       <SubType>Form</SubType>
@@ -263,8 +296,11 @@
     <EmbeddedResource Include="EliminarUsuarioEntrenador.resx">
       <DependentUpon>EliminarUsuarioEntrenador.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegistrarPlanEjercicio.resx">
-      <DependentUpon>RegistrarPlanEjercicio.cs</DependentUpon>
+    <EmbeddedResource Include="ModificarDatosEntrenador.resx">
+      <DependentUpon>ModificarDatosEntrenador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarServicio.resx">
+      <DependentUpon>RegistrarServicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarDatosEntrenador.resx">
       <DependentUpon>ConsultarDatosEntrenador.cs</DependentUpon>
@@ -272,11 +308,11 @@
     <EmbeddedResource Include="ConsultarDatosUsuario.resx">
       <DependentUpon>ConsultarDatosUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarPlanEjercicio.resx">
-      <DependentUpon>ConsultarPlanEjercicio.cs</DependentUpon>
+    <EmbeddedResource Include="ConsultarServicio.resx">
+      <DependentUpon>ConsultarServicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarServicios.resx">
-      <DependentUpon>ConsultarServicios.cs</DependentUpon>
+    <EmbeddedResource Include="AperturaDeCaja.resx">
+      <DependentUpon>AperturaDeCaja.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioDeRegistro.resx">
       <DependentUpon>FormularioDeRegistro.cs</DependentUpon>
@@ -290,8 +326,8 @@
     <EmbeddedResource Include="RecuperarContraseña.resx">
       <DependentUpon>RecuperarContraseña.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegistrarAdminServicios.resx">
-      <DependentUpon>RegistrarAdminServicios.cs</DependentUpon>
+    <EmbeddedResource Include="CalculosDeUsuario.resx">
+      <DependentUpon>CalculosDeUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistrarDatosEntrenador.resx">
       <DependentUpon>RegistrarDatosEntrenador.cs</DependentUpon>
@@ -299,8 +335,8 @@
     <EmbeddedResource Include="RegistrarDatosUsuario.resx">
       <DependentUpon>RegistrarDatosUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegistrarServiciosGym.resx">
-      <DependentUpon>RegistrarServiciosGym.cs</DependentUpon>
+    <EmbeddedResource Include="CalculosDeEntrenador.resx">
+      <DependentUpon>CalculosDeEntrenador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu Principal.resx">
       <DependentUpon>Menu Principal.cs</DependentUpon>
@@ -328,6 +364,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
