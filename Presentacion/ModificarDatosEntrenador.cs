@@ -16,5 +16,10 @@ namespace YouGym
         {
             InitializeComponent();
         }
+
+        private void ModificarDatosEntrenador_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

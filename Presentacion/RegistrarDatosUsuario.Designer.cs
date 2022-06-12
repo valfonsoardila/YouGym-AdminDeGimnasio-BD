@@ -109,6 +109,7 @@ namespace YouGym
             this.label3.Size = new System.Drawing.Size(52, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "Apellidos:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -143,6 +144,7 @@ namespace YouGym
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(172, 20);
             this.textBox2.TabIndex = 10;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 

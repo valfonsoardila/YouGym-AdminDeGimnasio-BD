@@ -299,6 +299,9 @@
     <EmbeddedResource Include="ModificarDatosEntrenador.resx">
       <DependentUpon>ModificarDatosEntrenador.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ModificarDatosUsuario.resx">
+      <DependentUpon>ModificarDatosUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RegistrarServicio.resx">
       <DependentUpon>RegistrarServicio.cs</DependentUpon>
     </EmbeddedResource>
